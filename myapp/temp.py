@@ -7,7 +7,7 @@ from nltk.tokenize import *
 from itertools import groupby
 
 ROOT_DIR = os.path.abspath(os.curdir)
-df = pd.read_csv(str(ROOT_DIR + "\\myapp\\data\\summerdata_original.csv"))
+df = pd.read_csv("C:\\Users\\ny48u\\Desktop\\atom\\Kaggle_EcommSummer\\myapp\\data\\summerdata_original.csv")
 
 # for loop stopper
 counter = 0
